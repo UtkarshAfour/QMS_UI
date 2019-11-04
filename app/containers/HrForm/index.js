@@ -51,8 +51,8 @@ const columns = [
     }
    },
    {
-    name: "empManager",
-    label: "Manager",
+    name: "duHead",
+    label: "DU Head",
     options: {
      filter: true,
      sort: false,
@@ -69,16 +69,16 @@ const columns = [
 ];
 
 
-function createData(empId ,empName ,currentQuarter ,empManager  ,empStatus ) {
-  return { empId: empId, empName: empName, currentQuarter: currentQuarter ,empManager: empManager ,empStatus: empStatus };
+function createData(empId ,empName ,currentQuarter ,duHead  ,empStatus ) {
+  return { empId: empId, empName: empName, currentQuarter: currentQuarter ,duHead: duHead ,empStatus: empStatus };
 }
 
 const data = [
-  createData('AFT0071', 'empName ', 'Q1', 'empManager', 'Manager Review Pending' ),
-  createData('AFT0101', 'empName2', 'Q1', 'empManager2', 'DU Head Review Pending'),
-  createData('AFT0331', 'empName3', 'Q1','empManager3', 'HR Review Pending'),
-  createData('AFT0041', 'empName4', 'Q1','empManager4', 'Review Complete'),
-  createData('AFT0021', 'empName5', 'Q1','empManager5', 'Review Complete'),
+  createData('AFT0071', 'empName ', 'Q1', 'DU Head', 'Manager Review Pending' ),
+  createData('AFT0101', 'empName2', 'Q1', 'DU Head2', 'DU Head Review Pending'),
+  createData('AFT0331', 'empName3', 'Q1','DU Head3', 'HR Review Pending'),
+  createData('AFT0041', 'empName4', 'Q1','DU Head4', 'Review Complete'),
+  createData('AFT0021', 'empName5', 'Q1','DU Head5', 'Review Complete'),
 ];
 
 /*
